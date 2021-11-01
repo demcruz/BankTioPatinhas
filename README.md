@@ -62,7 +62,7 @@ As seguintes ferramentas foram utilizadas na construção do projeto:
 
 <br>
 
-## Agradecimentos 
+## 🤝🏻 Agradecimentos 
 
 
 <div>
