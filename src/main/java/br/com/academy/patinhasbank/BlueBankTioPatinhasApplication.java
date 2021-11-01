@@ -1,14 +1,14 @@
-package br.com.academy.patinhasbanck;
+package br.com.academy.patinhasbank;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @SpringBootApplication
-public class BlueBanckTioPatinhasApplication {
+public class BlueBankTioPatinhasApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BlueBanckTioPatinhasApplication.class, args);
+		SpringApplication.run(BlueBankTioPatinhasApplication.class, args);
 	}
 
 }
