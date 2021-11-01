@@ -2,8 +2,8 @@
 
 <br>
 <div align=center>   
-# Spring Boot e Spring Data. - O banco fictício BlueBank 
+# Spring Boot e Spring Data. - Banco fictício BlueBank 
 
-Projeto Final do programa IBM Blue Acedemy <a href="https://ibmblueacademy.corporate.gama.academy/">BLUE ACADEMY power by Gama Academy </a>.
+Projeto Final do programa IBM Blue Acedemy <a href="https://ibmblueacademy.corporate.gama.academy/"> BLUE ACADEMY power by Gama Academy </a>.
 
 </div><br>
