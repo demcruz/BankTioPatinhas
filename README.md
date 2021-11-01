@@ -64,8 +64,9 @@ As seguintes ferramentas foram utilizadas na construção do projeto:
 
 ## Agradecimentos 
 
+
 <div>
-    <a><img width="400" src="https://user-images.githubusercontent.com/41333369/139744674-4c37d5ee-2ac9-4bba-8cb1-f5ad3bd3fea8.png"></a>
+    <a><img width="400" src="https://user-images.githubusercontent.com/41333369/139745995-320962c4-b028-43b3-8ae3-520cc8f9cf88.jpg"></a>
 </div>
 
 
