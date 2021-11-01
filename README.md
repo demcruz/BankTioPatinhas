@@ -11,7 +11,9 @@ Projeto Final do programa IBM Blue Acedemy <a href="https://ibmblueacademy.corpo
 ## 📚 Índice
  1. [Sobre o Desafio](#projeto)
  2. [Tecnologias Utilizadas](#tecnologias)
- 3. [Como rodar a aplicação e fazer testes](#requisitos)
+ 3. [Como rodar a aplicação e fazer testes](#testes)
+ 4. [Agradecimentos](#agradecimentos)
+
 
 
 <div id='projeto'/>
@@ -42,5 +44,33 @@ As seguintes ferramentas foram utilizadas na construção do projeto:
 &rarr; <a href="http://www.h2database.com/html/main.html">H2 Database Engine</a> Banco de dados em memória <br>
 &rarr; <a href="https://www.postman.com/">Postman / Insomnia</a> Teste da API  <br>
 &rarr; <a href="https://swagger.io/">Swagger</a> Criação da Documentação da API  <br>
+
+
+
+<div id='testes'/>
+
+<br>
+
+## 👷 Como rodar a aplicação e fazer testes
+
+### Pré-requisitos para rodar:
+
+
+
+
+<div id='agradecimentos'/> 
+
+<br>
+
+## Agradecimentos 
+
+<div>
+    <a><img width="400" src="https://user-images.githubusercontent.com/41333369/139744674-4c37d5ee-2ac9-4bba-8cb1-f5ad3bd3fea8.png"></a>
+</div>
+
+
+<div id='Devs'/> 
+
+<br>
 
 
