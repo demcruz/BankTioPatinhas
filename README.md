@@ -59,7 +59,7 @@ As seguintes ferramentas foram utilizadas na construção do projeto:
 
 Clone o repositório:
 ```bash
-$ git clone https://github.com/caamilacgs/DaraSquad
+$ git clone https://github.com/demcruz/BankTioPatinhas
 ```
 
 ### Compilando e rodando o projeto:
