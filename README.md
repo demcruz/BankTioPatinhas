@@ -55,7 +55,15 @@ As seguintes ferramentas foram utilizadas na construção do projeto:
 
 ### Pré-requisitos para rodar:
 
+### Faça uma copia do projeto para sua maquina:
 
+Clone o repositório:
+```bash
+$ git clone https://github.com/caamilacgs/DaraSquad
+```
+
+### Compilando e rodando o projeto:
+- Acesse o projeto por uma IDE de sua preferência: INTELIJ, ECLIPSE, VSCODE etc.
 
 
 <div id='agradecimentos'/> 
