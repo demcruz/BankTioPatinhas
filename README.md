@@ -9,7 +9,7 @@ Projeto Final do programa IBM Blue Acedemy <a href="https://ibmblueacademy.corpo
 </div><br>
 
 ## 📚 Índice
- 1. [Sobre o Desafio(#projeto)
+ 1. [Sobre o Desafio](#projeto)
  2. [Tecnologias Utilizadas](#tecnologias)
  3. [Como rodar a aplicação e fazer testes](#requisitos)
 <div id='projeto'/>
