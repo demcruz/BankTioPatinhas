@@ -13,6 +13,7 @@ Projeto Final do programa IBM Blue Acedemy <a href="https://ibmblueacademy.corpo
  2. [Tecnologias Utilizadas](#tecnologias)
  3. [Como rodar a aplicação e fazer testes](#testes)
  4. [Agradecimentos](#agradecimentos)
+ 5. [Desenvolvedores](#Devs)
 
 
 
@@ -81,5 +82,7 @@ $ git clone https://github.com/demcruz/BankTioPatinhas
 <div id='Devs'/> 
 
 <br>
+
+## 🤖Desenvolvedores: 
 
 
