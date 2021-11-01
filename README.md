@@ -83,6 +83,6 @@ $ git clone https://github.com/demcruz/BankTioPatinhas
 
 <br>
 
-## 🤖Desenvolvedores: 
+## 🤖Desenvolvedores 
 
 
