@@ -85,22 +85,26 @@ $ git clone https://github.com/demcruz/BankTioPatinhas
 
 ## 🤖Desenvolvedores 
 
-
+<div>
 <a href="https://www.linkedin.com/in/diegodemcruz/">
                 <img src="https://user-images.githubusercontent.com/41333369/140586211-b5503ac9-324b-40ab-9037-cebcadf3b401.png"
                     width="50px" alt="Linkedin" />
             </a>
-
+<div />
+ 
+ <div>
 <a href="https://www.linkedin.com/in/geibatista/">
                 <img src="https://user-images.githubusercontent.com/41333369/140586443-46734279-8a6b-478b-b8d9-7b3be794d77a.png"
                     width="40px" alt="Linkedin" />
             </a>
-            
+   <div/>
+  
+  <div>
  <a href="https://www.linkedin.com/in/rafael-vitor-59ab03194/">
                 <img src="https://user-images.githubusercontent.com/41333369/140586571-bc63a439-5547-4bfa-b874-ad3bbe9eb842.png"
                     width="50px" alt="Linkedin" />
             </a>
-            
+  <div/>         
            
 
 
