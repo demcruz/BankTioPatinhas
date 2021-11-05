@@ -84,9 +84,9 @@ $ git clone https://github.com/demcruz/BankTioPatinhas
 <br>
 
 ## 🤖Desenvolvedores 
-<div style="position:relative;">
 
 
+<div style="position: relative;">
 <a href="https://www.linkedin.com/in/diegodemcruz/">
 <img src="https://user-images.githubusercontent.com/41333369/140586211-b5503ac9-324b-40ab-9037-cebcadf3b401.png" width="100px" alt="Linkedin" />
 </a>
@@ -94,9 +94,9 @@ $ git clone https://github.com/demcruz/BankTioPatinhas
 <a href="https://www.linkedin.com/in/diegodemcruz/"> 
 <img src="https://user-images.githubusercontent.com/41333369/140587199-8b58e111-96c8-4e2c-aa25-488cf69da45f.png" width="30px" alt="Linkedin" /> 
 </a>
-
+<div/>
  
-
+<div style="position: relative;">
 <a href="https://www.linkedin.com/in/geibatista/">
 <img src="https://user-images.githubusercontent.com/41333369/140586443-46734279-8a6b-478b-b8d9-7b3be794d77a.png" width="90px" alt="Linkedin" />
 </a>
@@ -104,9 +104,9 @@ $ git clone https://github.com/demcruz/BankTioPatinhas
 <a href="https://www.linkedin.com/in/geibatista/"> 
 <img src="https://user-images.githubusercontent.com/41333369/140587199-8b58e111-96c8-4e2c-aa25-488cf69da45f.png" width="30px" alt="Linkedin"/> 
 </a>
-
+<div/>
   
-
+<div style="position: relative;">
 <a href="https://www.linkedin.com/in/rafael-vitor-59ab03194/">
 <img src="https://user-images.githubusercontent.com/41333369/140586571-bc63a439-5547-4bfa-b874-ad3bbe9eb842.png" width="100px" alt="Linkedin" />
 </a>
@@ -114,10 +114,5 @@ $ git clone https://github.com/demcruz/BankTioPatinhas
 <a href="https://www.linkedin.com/in/rafael-vitor-59ab03194/"> 
 <img src="https://user-images.githubusercontent.com/41333369/140587199-8b58e111-96c8-4e2c-aa25-488cf69da45f.png" width="30px" alt="Linkedin" /> 
 </a>
-
+<div/> 
  
-<div/>
-           
-
-
-
