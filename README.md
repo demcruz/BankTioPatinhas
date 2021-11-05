@@ -84,7 +84,7 @@ $ git clone https://github.com/demcruz/BankTioPatinhas
 <br>
 
 ## 🤖Desenvolvedores 
-<div style="display: inline-block;">
+<div style="position:relative;">
 
 <div>
 <a href="https://www.linkedin.com/in/diegodemcruz/">
@@ -116,7 +116,7 @@ $ git clone https://github.com/demcruz/BankTioPatinhas
 </a>
 <div/> 
  
- <div/>
+<div/>
            
 
 
