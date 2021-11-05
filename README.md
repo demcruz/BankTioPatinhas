@@ -92,7 +92,7 @@ $ git clone https://github.com/demcruz/BankTioPatinhas
             </a>
 
 <a href="https://www.linkedin.com/in/geibatista/">
-                <img src=""
+                <img src="https://user-images.githubusercontent.com/41333369/140586443-46734279-8a6b-478b-b8d9-7b3be794d77a.png"
                     width="30px" alt="Linkedin" />
             </a>
             
