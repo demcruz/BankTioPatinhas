@@ -90,6 +90,7 @@ $ git clone https://github.com/demcruz/BankTioPatinhas
                 <img src="https://user-images.githubusercontent.com/41333369/140586211-b5503ac9-324b-40ab-9037-cebcadf3b401.png"
                     width="50px" alt="Linkedin" />
             </a>
+ <p>Diego Cruz <p/>
 <div />
  
  <div>
@@ -97,6 +98,7 @@ $ git clone https://github.com/demcruz/BankTioPatinhas
                 <img src="https://user-images.githubusercontent.com/41333369/140586443-46734279-8a6b-478b-b8d9-7b3be794d77a.png"
                     width="40px" alt="Linkedin" />
             </a>
+  <p> Gei Batista <p/>
    <div/>
   
   <div>
@@ -104,6 +106,7 @@ $ git clone https://github.com/demcruz/BankTioPatinhas
                 <img src="https://user-images.githubusercontent.com/41333369/140586571-bc63a439-5547-4bfa-b874-ad3bbe9eb842.png"
                     width="50px" alt="Linkedin" />
             </a>
+   <p>Rafael Vitor  <p/>
   <div/>         
            
 
