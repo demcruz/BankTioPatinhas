@@ -84,6 +84,7 @@ $ git clone https://github.com/demcruz/BankTioPatinhas
 <br>
 
 ## 🤖Desenvolvedores 
+<div style="display: inline-block;">
 
 <div>
 <a href="https://www.linkedin.com/in/diegodemcruz/">
@@ -109,11 +110,13 @@ $ git clone https://github.com/demcruz/BankTioPatinhas
 <a href="https://www.linkedin.com/in/rafael-vitor-59ab03194/">
 <img src="https://user-images.githubusercontent.com/41333369/140586571-bc63a439-5547-4bfa-b874-ad3bbe9eb842.png" width="100px" alt="Linkedin" />
 </a>
-<p>Rafael Vitor <p/>
+<p>Rafael Vitor <p/> 
 <a href="https://www.linkedin.com/in/rafael-vitor-59ab03194/"> 
 <img src="https://user-images.githubusercontent.com/41333369/140587199-8b58e111-96c8-4e2c-aa25-488cf69da45f.png" width="30px" alt="Linkedin" /> 
 </a>
-<div/>         
+<div/> 
+ 
+ <div/>
            
 
 
