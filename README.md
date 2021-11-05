@@ -88,7 +88,7 @@ $ git clone https://github.com/demcruz/BankTioPatinhas
 
 <a href="https://www.linkedin.com/in/diegodemcruz/">
                 <img src="https://user-images.githubusercontent.com/41333369/140586211-b5503ac9-324b-40ab-9037-cebcadf3b401.png"
-                    width="30px" alt="Linkedin" />
+                    width="50px" alt="Linkedin" />
             </a>
 
 <a href="https://www.linkedin.com/in/geibatista/">
@@ -97,8 +97,8 @@ $ git clone https://github.com/demcruz/BankTioPatinhas
             </a>
             
  <a href="https://www.linkedin.com/in/rafael-vitor-59ab03194/">
-                <img src=""
-                    width="30px" alt="Linkedin" />
+                <img src="https://user-images.githubusercontent.com/41333369/140586571-bc63a439-5547-4bfa-b874-ad3bbe9eb842.png"
+                    width="50px" alt="Linkedin" />
             </a>
             
            
