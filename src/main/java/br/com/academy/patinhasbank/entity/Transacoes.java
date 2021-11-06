@@ -6,6 +6,7 @@ import java.time.LocalDateTime;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -26,7 +27,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Table(name = "TRANSACOES")
-public class Transacoes implements Serializable{
+public class Transacoes implements Serializable {
 
 	/**
 	 * 
@@ -34,22 +35,25 @@ public class Transacoes implements Serializable{
 	private static final long serialVersionUID = 1L;
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "IDTRANSACAO")
 	private Integer idTransacao;
 
-	@Column(name = "DESCRICAO")
-	private String descricao;
-	
-	@Column(name = "VALORDATRANSACAO")
-	private BigDecimal valorDaTransacao;
+	@Column(name = "CONTAORIGEM")
+	private Integer contaOrigem;
+
+	@Column(name = "CONTADESTINO")
+	private Integer contaDestino;
+
+	@Column(name = "VALORTRANSACAO")
+	private BigDecimal valorTransacao;
 
 	@Column(name = "DATATRANSACAO")
 	@CreationTimestamp
 	private LocalDateTime dataTransacao;
 
 	@JsonIgnore
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.EAGER)
 	@JoinColumn(name = "IDCONTA")
 	private Conta conta;
 

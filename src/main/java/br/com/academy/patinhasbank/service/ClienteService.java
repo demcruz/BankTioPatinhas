@@ -6,9 +6,10 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import br.com.academy.patinhasbank.DTO.ClienteDTO;
 import br.com.academy.patinhasbank.entity.Cliente;
+import br.com.academy.patinhasbank.entity.Conta;
 import br.com.academy.patinhasbank.repository.ClienteRepository;
-import javassist.tools.rmi.ObjectNotFoundException;
 
 @Service
 public class ClienteService implements ServiceImplementacao<Cliente, Integer> {
@@ -23,8 +24,7 @@ public class ClienteService implements ServiceImplementacao<Cliente, Integer> {
 
 	@Override
 	public Cliente insert(Cliente body) {
-		// TODO Auto-generated method stub
-		return null;
+		return clienteRepository.save(body);
 	}
 
 	@Override
@@ -32,11 +32,9 @@ public class ClienteService implements ServiceImplementacao<Cliente, Integer> {
 		// TODO Auto-generated method stub
 		return null;
 	}
+	
+	
 
-	@Override
-	public Cliente update(Integer id, Cliente body) throws ObjectNotFoundException {
-		// TODO Auto-generated method stub
-		return null;
-	}
+
 
 }

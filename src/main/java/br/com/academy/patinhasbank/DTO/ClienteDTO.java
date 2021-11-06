@@ -1,34 +1,37 @@
 package br.com.academy.patinhasbank.DTO;
 
-import java.util.List;
 
-import br.com.academy.patinhasbank.entity.Cliente;
-import br.com.academy.patinhasbank.entity.Conta;
+
+
+import java.io.Serializable;
+import java.math.BigDecimal;
+
+
+
+import br.com.academy.patinhasbank.entity.TipoDeConta;
 import lombok.Data;
 
 @Data
-public class ClienteDTO {
+public class ClienteDTO implements Serializable {
 	
-	private Integer idCliente;
-	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	private String nome;
-	
-	private String email;
-	
+
 	private String cpf;
 	
-	private String password;
-	
-	private List<Conta> conta;
+	private String email;
 
-	public ClienteDTO(Cliente cliente, Conta conta) {
-		this.idCliente = cliente.getIdCliente();
-		this.nome = cliente.getNome();
-		this.email = cliente.getEmail();
-		this.cpf = cliente.getCpf();
-		this.password = cliente.getPassword1();
-		this.conta.add(conta);
-	}
+	private String password1;
+	
+	private Integer numeroDaConta;
+
+	private TipoDeConta tipoDeConta;
+
+	private BigDecimal saldoConta;
 	
 	
 	

@@ -20,9 +20,8 @@ public class ClienteController implements ControllerImplementacao<Cliente, Integ
 	private ClienteService clienteService;
 	
 	@Override
-	public ResponseEntity<Cliente> insert(Cliente body) throws ObjectNotFoundException {
-		// TODO Auto-generated method stub
-		return null;
+	public ResponseEntity<Cliente> insert(Cliente body) {
+		return ResponseEntity.ok().body(clienteService.insert(body));
 	}
 
 	@Override
@@ -32,14 +31,9 @@ public class ClienteController implements ControllerImplementacao<Cliente, Integ
 
 	@Override
 	public ResponseEntity<Optional<Cliente>> findbyId(Integer id) {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
-	@Override
-	public ResponseEntity<Cliente> update(Integer id, Cliente body) throws ObjectNotFoundException {
-		// TODO Auto-generated method stub
-		return null;
-	}
+	
 
 }
