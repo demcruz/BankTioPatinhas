@@ -5,6 +5,7 @@ import org.springframework.stereotype.Repository;
 
 import br.com.academy.patinhasbank.entity.Transacoes;
 
+
 @Repository
 public interface TransacaoRepository extends JpaRepository<Transacoes, Integer>{
 

@@ -10,6 +10,7 @@ import org.springframework.stereotype.Repository;
 import br.com.academy.patinhasbank.entity.Conta;
 
 
+
 @Repository
 public interface ContaRepository extends JpaRepository<Conta, Integer> {
 	

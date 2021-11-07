@@ -2,7 +2,6 @@ package br.com.academy.patinhasbank.DTO;
 
 import java.math.BigDecimal;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

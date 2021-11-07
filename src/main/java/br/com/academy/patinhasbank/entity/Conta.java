@@ -51,10 +51,6 @@ public class Conta implements Serializable {
 	@Column(name = "SALDOCONTA")
 	private BigDecimal saldoConta;
 
-//	@JsonIgnore
-//	@ManyToOne(fetch = FetchType.EAGER)
-//	@JoinColumn(name = "IDCLIENTE")
-//	private Cliente cliente;
 
 	@OneToMany(mappedBy = "conta", fetch = FetchType.EAGER, cascade = CascadeType.ALL)
 	private List<Transacoes> transacoes;

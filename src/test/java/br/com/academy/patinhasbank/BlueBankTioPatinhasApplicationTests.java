@@ -1,10 +1,10 @@
-package br.com.academy.patinhasbanck;
+package br.com.academy.patinhasbank;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BlueBanckTioPatinhasApplicationTests {
+class BlueBankTioPatinhasApplicationTests {
 
 	@Test
 	void contextLoads() {

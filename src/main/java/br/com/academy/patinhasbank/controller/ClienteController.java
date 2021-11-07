@@ -29,15 +29,16 @@ public class ClienteController implements ControllerImplementacao<Cliente, Integ
 
 	@Override
 	public ResponseEntity<List<Cliente>> findAll() {
-		log.info("Buscando Todos os Clientes ");
+		log.info("Listando Todos os Clientes ");
 		return ResponseEntity.ok().body(clienteService.findAll());
 	}
 
 	@Override
 	public ResponseEntity<Cliente> findbyId(@PathVariable Integer id) {		
+		log.info("Buscando Clientes Por Id ");
 		Cliente client = clienteService.findById(id);
 		return ResponseEntity.ok().body(client);
-
 	}
+	
 
 }
