@@ -10,6 +10,6 @@ public interface ServiceImplementacao<T, R> {
 	
 	public T insert(T body);
 	
-	public Optional<T>findById(R id);
+	public T findById(R id);
 	
 }

@@ -4,38 +4,27 @@ import java.math.BigDecimal;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class TransferenciaEntreContasDTO {
 
-	@JsonProperty("numeroDaContaOrigem")
 	private Integer numeroDaContaOrigem;
 
-	@JsonProperty("numeroDaContaDestinatario")
 	private Integer numeroDaContaDestinatario;
 
-	@JsonProperty("valorTransferencia")
 	private BigDecimal valorTransferencia;
+	
+	private String mensagem;
 
-	public TransferenciaEntreContasDTO() {
-		super();
-	}
 
-	public TransferenciaEntreContasDTO(Integer numeroDaContaOrigem, Integer numeroDaContaDestinatario,
-			BigDecimal valorTransferencia) {
-		super();
-		this.numeroDaContaOrigem = numeroDaContaOrigem;
-		this.numeroDaContaDestinatario = numeroDaContaDestinatario;
-		this.valorTransferencia = valorTransferencia;
-	}
 
-//	public TransferenciaEntreContasDTO(Conta conta) {
-//		this.numeroDaContaOrigem = conta.getNumeroDaConta();
-//		this.numeroDaContaDestinatario = conta.getNumeroDaConta();
-//		this.valorTransferencia = conta.getSaldoConta();
-//	
-//
-//	}
+
+
+
 
 }

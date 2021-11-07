@@ -7,6 +7,7 @@ target/
 ### STS ###
 .apt_generated
 .sts4-cache
+.gitignore
 
 ### IntelliJ IDEA ###
 .idea
