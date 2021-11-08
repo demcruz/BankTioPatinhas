@@ -67,6 +67,25 @@ $ git clone https://github.com/demcruz/BankTioPatinhas
 - Acesse o projeto por uma IDE de sua preferência: INTELIJ, ECLIPSE, VSCODE etc.
 
 
+### Dependências utilizadas no projeto:
+
+- <a href="https://spring.io/projects/spring-data-jpa#overview">Spring Data JPA</a><br>
+- <a href="https://spring.io/projects/spring-ws">Spring Web</a><br>
+- <a href="https://spring.io/projects/spring-boot">Spring Boot DevTools</a><br>
+- <a href="https://spring.io/guides/gs/accessing-data-mysql/">MySQL Driver </a><br>
+- <a href="https://spring.io/guides/gs/accessing-data-jpa/">H2database</a><br>
+- <a href="https://projectlombok.org/setup/maven">Lombok </a><br>
+
+### Teste da API
+
+- Pode ser feito pelo swagger: <a href="http://18.228.152.161:8080/swagger-ui/index.html#/">http://18.228.152.161:8080/swagger-ui/index.html#/</a><br>
+
+
+
+<div id='agradecimentos'/> 
+
+
+
 <div id='agradecimentos'/> 
 
 <br>
