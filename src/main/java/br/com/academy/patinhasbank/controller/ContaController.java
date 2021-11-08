@@ -22,8 +22,19 @@ import lombok.extern.slf4j.Slf4j;
 public class ContaController {
 	
 	@Autowired
-	private ContaService contaService;
+	private ContaService contaService;	
+		
 	
+	@PostMapping(value = "/transferenciaContas")
+	public ResponseEntity<TransferenciaEntreContasDTO> transferenciaEntreContas (@RequestBody TransferenciaEntreContasDTO transfer){		
+		log.info("Tranferencia entre Contas Iniciada");		
+		return ResponseEntity.ok().body(contaService.transferencia(transfer));
+	}
+	
+	@GetMapping(value = "/numeroDaConta/{numeroconta}")
+	public Conta findByNumeroConta(@PathVariable Integer numerodaConta) {
+		return contaService.findByNumeroConta(numerodaConta);
+	}
 	
 	@GetMapping(value = "/{id}")
 	public ResponseEntity<Conta> getContaId(@PathVariable Integer id){
@@ -33,17 +44,6 @@ public class ContaController {
 	@GetMapping(value = "/findAll")
 	public ResponseEntity<List<Conta>>findAll(){
 		return ResponseEntity.ok().body(contaService.findAll());
-	}	
-	
-	@PostMapping(value = "/transferenciaContas")
-	public ResponseEntity<TransferenciaEntreContasDTO> transferenciaEntreContas (@RequestBody TransferenciaEntreContasDTO transfer){		
-		log.info("Tranferencia entre Contas Iniciada");		
-		return ResponseEntity.ok().body(contaService.transferencia(transfer));
-	}
-	
-	@GetMapping(value = "/numeroDaConta/{id}")
-	public Conta findByNumeroConta(@PathVariable Integer numerodaConta) {
-		return contaService.findByNumeroConta(numerodaConta);
 	}
 	
 	
