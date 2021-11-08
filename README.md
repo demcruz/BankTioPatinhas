@@ -81,6 +81,15 @@ $ git clone https://github.com/demcruz/BankTioPatinhas
 - Pode ser feito pelo swagger: <a href="http://18.228.152.161:8080/swagger-ui/index.html#/">http://18.228.152.161:8080/swagger-ui/index.html#/</a><br>
 
 
+### Endpoint - Projeto
+
+- Novo Cliente - http://18.228.152.161:8080/cliente/insert
+- Listar Todos os Clientes - http://18.228.152.161:8080/cliente/findAll
+- Listar todas as Contas - http://18.228.152.161:8080/conta/findAll 
+- Historico de Transações - http://18.228.152.161:8080/historicoTransacoes/findAll
+- Fazer transações entre contas - http://18.228.152.161:8080/conta/transferenciaContas
+
+
 
 <div id='agradecimentos'/> 
 
